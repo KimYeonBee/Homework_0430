@@ -53,5 +53,20 @@ body * {
     display: flex;
     flex-direction: column;
   }
+  
+  .box:nth-child(1){
+    font-size: 20px;
+  }
 }
 
+@media(min-width: 768px){
+  .box:nth-child(1){
+    font-size: 28px;
+  }
+}
+
+@media(min-width: 1024px){
+  .box:nth-child(1){
+    font-size: 36px;
+  }
+}
